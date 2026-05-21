@@ -51,6 +51,24 @@ Your combined score determines your maturity level and places you within one of 
 
 ---
 
+## Standards and sources
+
+Each dimension draws from established public standards. The framework is not proprietary — it is a structured synthesis of work the industry has already produced.
+
+| # | Dimension | Standards this draws from |
+|---|---|---|
+| 01 | Documentation | CNCF Platform Engineering Maturity Model, OpenAPI 3.x Initiative, Backstage / CNCF ecosystem |
+| 02 | API and Tooling | OpenGitOps Working Group (CNCF), Kubernetes declarative model, HashiCorp Terraform |
+| 03 | CI/CD | DORA Metrics (Google), SLSA supply chain framework, CNCF CD Foundation |
+| 04 | Observability | OpenTelemetry (CNCF), Google SRE Book, Prometheus (CNCF) |
+| 05 | Safety | NIST SP 800-53, CIS Controls v8, Open Policy Agent (CNCF), SOC 2 Type II |
+| 06 | Security and Zero Trust | NIST SP 800-207 Zero Trust Architecture, SPIFFE/SPIRE (CNCF), NIST FIPS 203/204/205 |
+| 07 | FinOps | FinOps Foundation Framework, CNCF FinOps Working Group, FOCUS Specification |
+
+All scoring criteria, question rationale, and standard mappings are documented in the research paper published at [DOI 10.5281/zenodo.20076846](https://doi.org/10.5281/zenodo.20076846).
+
+---
+
 ## The four archetypes
 
 **Foundation Setter** — Your platform serves your engineers well. It is not yet ready for agents to operate on it reliably. The work starts with the fundamentals: machine-readable documentation and programmable APIs.
