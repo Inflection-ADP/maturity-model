@@ -2,7 +2,7 @@
 
 This document explains the full scoring methodology behind the Inflection ADP Maturity Assessment — why these seven dimensions, why equal weighting, what the formula is, and what a score actually means.
 
-The scoring engine lives in [`artifacts/api-server/src/lib/scoring.ts`](../artifacts/api-server/src/lib/scoring.ts). You can read the exact implementation there. This document explains the reasoning behind it.
+The scoring engine is in [`src/scoring.ts`](./src/scoring.ts) in this repository. You can read the exact implementation there. This document explains the reasoning behind it.
 
 ---
 
@@ -203,7 +203,7 @@ The roadmap is derived directly from your scores. It is a starting point for pla
 
 ## Source code
 
-The scoring implementation is in [`artifacts/api-server/src/lib/scoring.ts`](../artifacts/api-server/src/lib/scoring.ts).
+The scoring implementation is in [`src/scoring.ts`](./src/scoring.ts).
 
 The function `scoreAssessment()` is the entry point. It takes your answers, computes dimension scores, maps them to levels, averages to an overall score, and builds the roadmap via `buildRoadmap()` using the floor-first algorithm.
 
